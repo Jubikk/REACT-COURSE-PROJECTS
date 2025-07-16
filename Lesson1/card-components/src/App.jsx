@@ -4,7 +4,11 @@ import './index.css';
 function App() {
   
   return(
+    <>
     <Card/>
+    <Card/>
+    <Card/>
+    </>
   );
 
 
