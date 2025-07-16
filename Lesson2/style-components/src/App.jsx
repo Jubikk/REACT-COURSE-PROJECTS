@@ -1,4 +1,4 @@
-import Button from './assets/Button.jsx';
+import Button from './Button/Button.jsx';
 
 
 
