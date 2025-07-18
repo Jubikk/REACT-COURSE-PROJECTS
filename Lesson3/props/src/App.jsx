@@ -1,4 +1,4 @@
-import Student from '/Student.jsx';
+import Student from './Student.jsx';
 
 
 function App() {
