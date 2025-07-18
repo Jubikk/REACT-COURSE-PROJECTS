@@ -1,8 +1,12 @@
 
 
-function Student () {
+function Student(props) {
 
-  return():
+  return(
+    <div>
+      <p>Name: {props.name}</p>
+    </div>
+  );
 
 }
 
