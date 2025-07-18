@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 function Student(props) {
-
+  console.log(props); 
   return(
     <div className = "student">
       <p>Name: {props.name}</p>
