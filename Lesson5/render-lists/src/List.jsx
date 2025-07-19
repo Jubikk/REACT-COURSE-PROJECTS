@@ -10,11 +10,12 @@ function List() {
   //fruits.sort((a, b) => a.name.localeCompare(b.name));// sort by name
   //fruits.sort((a, b) => a.calories - b.calories);// sort by calories
 
-  const lowCalFruits = fruits.filter(fruit => fruit.calories < 100);
+  //const lowCalFruits = fruits.filter(fruit => fruit.calories < 100);// filter fruits with less than 100 calories
+  //const highCalFruits = fruits.filter(fruit => fruit.calories > 100);// filter fruits with more than 100 calories
 
-  const listItems = lowCalFruits.map(lowCalFruitsfruit => <li key={lowCalFruitsfruit.id}> 
-                                                                   {lowCalFruitsfruit.name} : &nbsp; 
-                                                                <b>{lowCalFruitsfruit.calories}</b></li>);
+  const listItems = highCalFruits.map(highCalFruits => <li key={highCalFruits.id}> 
+                                                                   {highCalFruits.name} : &nbsp; 
+                                                                <b>{highCalFruits.calories}</b></li>);
 
 
   return (<ol>{listItems}</ol>);
