@@ -19,8 +19,12 @@ function List(props) {
   return (<><h3 className = "category">{category}</h3>
             <ol className = "items">{listItems}</ol> </>);
 
-
 }
+
+List.defaultProps = {
+  category: "Category",
+  items: []
+};
 
 
 
