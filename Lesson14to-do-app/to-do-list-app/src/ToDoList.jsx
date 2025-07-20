@@ -12,10 +12,18 @@ function ToDoList (){
 
   function addTask () {
 
+    if(newTask.trim() !== ""){
+      setTask(prevTask =>[...task, newTask])
+      setNewTask("");
+    }
+  
+
   }
 
   function deleteTask (index) {
 
+    const UpdatedTasks = task.filter((_,i) => i !== index);
+    setTask(UpdatedTasks);
   }
 
   function moveTaskUp (index) {
