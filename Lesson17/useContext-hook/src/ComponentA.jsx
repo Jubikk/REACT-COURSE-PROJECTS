@@ -1,13 +1,15 @@
 
+import { useState } from "react";
 import ComponentB from "./ComponentB.jsx";
 
 function ComponentA () {
-
+  const [user, setUser] = useState("B1Kjuu");
 
   return (
     <div className="box">
       <h1>Component A</h1>
-      <ComponentB/>
+      <h2>{`Hello! ${user}`}</h2>
+      <ComponentB user ={user}/>
     </div>
   );
 }
