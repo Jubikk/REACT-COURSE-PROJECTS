@@ -22,9 +22,11 @@ function MyComponent() {
   return (
     <div>
       <h1>Counter: {count}</h1>
-      <button onClick={handleIncrement}>Increment</button>
-      <button onClick= {handleDecrement}>Decrement</button>
-      <button onClick={handleReset}>Reset</button>
+      <div className="button-group">
+        <button onClick={handleIncrement}>Increment</button>
+        <button onClick={handleDecrement}>Decrement</button>
+        <button onClick={handleReset}>Reset</button>
+      </div>
     </div>
   );
 
