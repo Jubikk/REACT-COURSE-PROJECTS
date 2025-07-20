@@ -5,11 +5,16 @@ body {
 }
 
 .to-do-list {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 100px;
+  max-width: 500px;   /* or any width you prefer */
+  margin: 40px auto;  /* centers the container */
+  padding: 20px;
 }
 
+.to-do-list ol {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 h1 {
   font-size: 4rem;
   color: aliceblue;
@@ -29,6 +34,7 @@ button {
 
 .add-button {
   background-color: coral;
+  margin-left: 3px;
 
 }
 
@@ -61,6 +67,7 @@ input[type="text"] {
   border: 2px solid rgb(191, 183, 183);
   border-radius: 5px;
   color: rgb(74, 74, 74);
+  margin-bottom: 5px; 
 
 }
 
@@ -81,7 +88,11 @@ li {
 }
 
 .text {
-  flex: 1 ;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
 }
 
 .delete-button, .move-button {
