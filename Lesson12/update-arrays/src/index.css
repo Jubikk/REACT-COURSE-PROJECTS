@@ -1,0 +1,5 @@
+
+.remove-food:hover {
+  color: aqua;
+  cursor: not-allowed;
+}
