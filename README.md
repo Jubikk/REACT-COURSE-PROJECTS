@@ -28,39 +28,39 @@ Each folder corresponds to a topic or lesson in the video. Below is an overview 
     <td>Getting started with React basics, project setup, and first components.</td>
   </tr>
   <tr>
-    <td><a href="./Lesson1/card-components/" title="Card Components">🃏 Lesson 1</a></td>
+    <td><a href="./Lesson01/card-components/" title="Card Components">🃏 Lesson 1</a></td>
     <td>Building and styling card components.</td>
   </tr>
   <tr>
-    <td><a href="./Lesson2/style-components/" title="Style Components">🎨 Lesson 2</a></td>
+    <td><a href="./Lesson02/style-components/" title="Style Components">🎨 Lesson 2</a></td>
     <td>Styling React components with CSS.</td>
   </tr>
   <tr>
-    <td><a href="./Lesson3/props/" title="Props">📦 Lesson 3</a></td>
+    <td><a href="./Lesson03/props/" title="Props">📦 Lesson 3</a></td>
     <td>Understanding and using props in components.</td>
   </tr>
   <tr>
-    <td><a href="./Lesson4/conditional-rendering/" title="Conditional Rendering">🔀 Lesson 4</a></td>
+    <td><a href="./Lesson04/conditional-rendering/" title="Conditional Rendering">🔀 Lesson 4</a></td>
     <td>Implementing conditional rendering in React.</td>
   </tr>
   <tr>
-    <td><a href="./Lesson5/render-lists/" title="Render Lists">📋 Lesson 5</a></td>
+    <td><a href="./Lesson05/render-lists/" title="Render Lists">📋 Lesson 5</a></td>
     <td>Rendering lists and using the map function.</td>
   </tr>
   <tr>
-    <td><a href="./Lesson6/click-events/" title="Click Events">🖱️ Lesson 6</a></td>
+    <td><a href="./Lesson06/click-events/" title="Click Events">🖱️ Lesson 6</a></td>
     <td>Handling click events in React.</td>
   </tr>
   <tr>
-    <td><a href="./Lesson7/react-hook/" title="React Hook">🪝 Lesson 7</a></td>
+    <td><a href="./Lesson07/react-hook/" title="React Hook">🪝 Lesson 7</a></td>
     <td>Introduction to React hooks, especially useState.</td>
   </tr>
   <tr>
-    <td><a href="./Lesson8/onchange-event/" title="OnChange Event">✏️ Lesson 8</a></td>
+    <td><a href="./Lesson08/onchange-event/" title="OnChange Event">✏️ Lesson 8</a></td>
     <td>Handling input and change events.</td>
   </tr>
   <tr>
-    <td><a href="./Lesson9color-picker-app/color-picker-app/" title="Color Picker App">🎨 Lesson 9</a></td>
+    <td><a href="./Lesson09color-picker-app/color-picker-app/" title="Color Picker App">🎨 Lesson 9</a></td>
     <td>Mini project - Color Picker App.</td>
   </tr>
   <tr>
