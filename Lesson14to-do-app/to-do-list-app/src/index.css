@@ -18,7 +18,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.5 ease;
+  transition: background-color 0.5s ease;
 
 }
 
@@ -37,7 +37,7 @@ button {
 }
 
 .delete-button:hover {
-  background-color: rgb(254, 91, 91);
+  background-color: rgb(251, 130, 130);
 
 }
 
@@ -49,3 +49,33 @@ button {
 .move-button:hover {
   background-color: rgb(0, 156, 253);
 }
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(191, 183, 183);
+  border-radius: 5px;
+  color: rgb(74, 74, 74);
+
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(241, 241, 239);
+  margin-bottom: 10px;
+  border: 3px solid rgb(211, 98, 98);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;  
+}
+
+.text {
+  flex: 1 ;
+}
+
