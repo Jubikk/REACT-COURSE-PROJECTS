@@ -18,4 +18,36 @@ This repo serves as my personal progress tracker and sandbox for learning React.
 
 ## 📌 Exercises Structure
 
-Each folder corresponds to a topic or lesson in the video.
+Each folder corresponds to a topic or lesson in the video. Below is an overview of the structure and included projects:
+
+### Lessons & Projects
+
+- **Introduction/react_project/**: Getting started with React basics, project setup, and first components.
+
+- **Lesson1/card-components/**: Building and styling card components.
+
+- **Lesson2/style-components/**: Styling React components with CSS.
+
+- **Lesson3/props/**: Understanding and using props in components.
+
+- **Lesson4/conditional-rendering/**: Implementing conditional rendering in React.
+
+- **Lesson5/render-lists/**: Rendering lists and using the map function.
+
+- **Lesson6/click-events/**: Handling click events in React.
+
+- **Lesson7/react-hook/**: Introduction to React hooks, especially useState.
+
+- **Lesson8/onchange-event/**: Handling input and change events.
+
+- **Lesson9color-picker-app/color-picker-app/**: Mini project - Color Picker App.
+
+- **Lesson10/updater-functions/**: Using updater functions with useState.
+
+- **Lesson11/update-objects/**: Updating objects in state.
+
+- **Lesson12/update-arrays/**: Updating arrays in state.
+
+- **Lesson13/update-objects-array/**: Updating objects within arrays in state.
+
+---
