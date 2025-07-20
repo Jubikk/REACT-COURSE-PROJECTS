@@ -13,6 +13,9 @@ function MyComponent() {
   const IncrementAge = () => {
     setAge(age + 1);
   }
+  const DecrementAge = () => {
+    setAge(age - 1);
+  }
 
   return(
     <div>
@@ -21,6 +24,7 @@ function MyComponent() {
 
       <p> Age: {age}</p>
       <button onClick= {IncrementAge}>Increment Age</button>
+      <button onClick= {DecrementAge}>Decrement Age</button>
     </div>
   );
 
