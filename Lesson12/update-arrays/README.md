@@ -1,12 +1,20 @@
-# React + Vite
+# 📑 Lesson 12: Update Arrays
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to update arrays in React state.
 
-Currently, two official plugins are available:
+## Key Concepts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adding, removing, and updating array items
+- Immutability with arrays
+- Using array methods in state updates
 
-## Expanding the ESLint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies: `npm install`
+2. Start the dev server: `npm run dev`
+
+## Folder Structure
+
+- `src/` - Contains all array update examples
+
+---
