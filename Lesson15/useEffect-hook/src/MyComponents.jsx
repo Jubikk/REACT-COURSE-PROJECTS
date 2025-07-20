@@ -7,7 +7,7 @@ function MyComponent() {
 
   useEffect(() => {
     document.title = `Count: ${count} ${color}`;
-  }, [count]);
+  }, [count, color]);
 
   
   function addCount () {
@@ -18,16 +18,24 @@ function MyComponent() {
     setCount(prevCount => prevCount - 1);
   }
 
+  function resetCount () {
+    setCount(0);
+  }
+
   function changeColor () {
     setColor(prevColor => prevColor === "Red" ? "Green" : "Red");
   }
 
 
+
+
   return (<> 
     <p style = {{color: color}}>Count: {count}</p>
     <button onClick={addCount}>Add</button>
-    <button onClick={subtractCount}>Subtract</button> <br/>
+    <button onClick={subtractCount}>Subtract</button> 
+    <button onClick={resetCount}>Reset</button> <br/>
     <button onClick={changeColor}> Change Color</button>
+    
     
     
 
