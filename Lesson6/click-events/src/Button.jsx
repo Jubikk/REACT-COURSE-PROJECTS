@@ -1,11 +1,20 @@
 
 function Button () {
+  
+  let count = 0;
 
-  const handleClick = () => console.log('Button clicked!'); 
-  const handleClick2 = (name) => console.log(`${name}  Stop Clicking me!!`);
+  const handleClick = (name) => {
+    if(count <3) {
+      count++;
+      console.log(`${name} you clicked me ${count} times`);
+    }
+    else {
+      console.log(`${name} Stop Clicking me!`);
+    } 
+  };
 
 
-  return (<button onClick={() => handleClick2("B1Kjuu")}> Click me!</button>);
+  return (<button onClick={() => handleClick("B1Kjuu")}> Click me!</button>);
 
 }
 
