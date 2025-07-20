@@ -5,8 +5,15 @@ function MyComponent() {
   const [width, setWidth] = useState(window.innerWidth);
   const [height, setHeight] = useState(window.innerHeight);
 
-  window.addEventListener("resize",handleResize);
-  console.log("EVENT LISTENER ADDED"); 
+  useEffect(()=> {
+      window.addEventListener("resize",handleResize);
+      console.log("EVENT LISTENER ADDED"); 
+
+      return() => {
+        window.removeEventListener("resize",handleResize);
+        console.log("EVENT LISTENER REMOVED"); 
+      }
+  }, []);
 
   function handleResize () {
     setWidth(window.innerWidth);
