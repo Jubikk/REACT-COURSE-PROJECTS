@@ -12,7 +12,12 @@ body {
 
 h1 {
   margin: 50px;
-  font-size: 3em; 
+  font-size: 2.5em;
+  font: Arial, sans-serif;
+  border: 5px solid #291e1e; 
+  border-radius: 25px;
+  padding: 30px;
+  background-color: #185ede;
 }
 
 .color-display {
