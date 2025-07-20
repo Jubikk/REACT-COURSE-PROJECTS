@@ -19,7 +19,7 @@ function DigitalClock(){
     let hours = time.getHours();
     const minutes = time.getMinutes();
     const seconds = time.getSeconds();
-    const meridiem = hourse >= 12 ? "PM" : "AM" ;
+    const meridiem = hours >= 12 ? "PM" : "AM" ;
 
     hours = hours % 12 || 12 ;
 
@@ -31,7 +31,7 @@ function DigitalClock(){
 
   return (<div className="clock-container">
     <div className="clock"> 
-      <span>00:00:00</span>
+      <span>{formatTime()}</span>
     </div>
   
   
