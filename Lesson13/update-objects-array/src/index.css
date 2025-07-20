@@ -1,0 +1,62 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: bisque;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  padding: 5px;
+  text-decoration:underline;
+}
+
+ul {
+  list-style: none;
+  font-weight: bold;
+  color: chocolate;
+  border: 2px solid #000;
+  padding: 8px 0;
+  text-align: center;
+  margin: 16px auto;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 16px auto;
+}
+
+.input-field input {
+  background-color: #fff;
+  padding: 8px 12px;
+  border: 1px solid #d1bfa3;
+  border-radius: 6px;
+  font-size: 1em;
+  outline: none;
+}
+
+.input-field button {
+  background-color: aqua;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+
+.remove-car:hover {
+  color: rgb(153, 201, 201);
+  cursor: not-allowed;
+
+}
