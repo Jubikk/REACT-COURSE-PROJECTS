@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 
 function ToDoList (){
-  const [task, setTask] = useState(["Eat breakfast", "Take a bath", "Learn more about React"]);
+  const [task, setTask] = useState([]);
   const [newTask, setNewTask] = useState("");
 
 
@@ -16,8 +16,6 @@ function ToDoList (){
       setTask(prevTask =>[...task, newTask])
       setNewTask("");
     }
-  
-
   }
 
   function deleteTask (index) {
@@ -27,10 +25,21 @@ function ToDoList (){
   }
 
   function moveTaskUp (index) {
-
+    if(index > 0 ) {
+      const UpdatedTasks = [...task];
+      [UpdatedTasks[index], UpdatedTasks[index -1]] = 
+      [UpdatedTasks[index - 1],UpdatedTasks[index]];
+      setTask(UpdatedTasks);
+    }
   }
 
   function moveTaskDown (index) {
+    if(index < task.length - 1 ) {
+      const UpdatedTasks = [...task];
+      [UpdatedTasks[index], UpdatedTasks[index + 1]] = 
+      [UpdatedTasks[index + 1],UpdatedTasks[index]];
+      setTask(UpdatedTasks);
+    }
 
   }
 
