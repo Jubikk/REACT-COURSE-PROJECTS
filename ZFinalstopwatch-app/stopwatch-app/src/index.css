@@ -7,6 +7,12 @@ body {
   background-color: lightgray;
 }
 
+h1 {
+  font-size: 2rem;
+  font-family: monospace;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
 
 .stopwatch {
   display: flex;
