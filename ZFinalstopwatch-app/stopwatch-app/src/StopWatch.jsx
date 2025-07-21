@@ -13,12 +13,13 @@ function StopWatch () {
   },[isRunning]);
 
   function start(){
-
-
+    setisRunning(true);
+    startTimeRef.current = Date.now() - elapsedTime;
+    
   }
 
   function stop (){
-
+    setisRunning(false);
   }
 
   function reset () {
@@ -31,6 +32,7 @@ function StopWatch () {
   }
   return(
     <div className="stopwatch">
+      <h1>Stopwatch</h1>
       <div className="display">{formatTime()}</div>
       <div className="controls">
         <button onClick={start} className="start-button">Start</button>
