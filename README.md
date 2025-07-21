@@ -144,10 +144,6 @@ Feel free to fork the repository and submit a pull request.
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a pull request
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 🙏 Acknowledgments
 
 - [@brocode](https://www.youtube.com/@BroCodez) for the excellent React course.
