@@ -3,6 +3,32 @@
 This repository contains all the exercises and practice projects based on the **React JS Full Course for Beginners (2024)** by [@brocode](https://www.youtube.com/@BroCodez).  
 📺 **Course Video:** [Watch on YouTube](https://www.youtube.com/watch?v=CgkZ7MvWUAA&t=16707s)
 
+## 🛠️ Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- A modern web browser (Chrome, Firefox, Edge, etc.)
+
+## 🚦 Getting Started
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Jubikk/REACT-COURSE-PROJECTS.git
+   cd REACT-COURSE-PROJECTS
+   ```
+2. **Navigate to a lesson/project folder:**
+   ```sh
+   cd Lesson01/card-components
+   ```
+3. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+4. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+
 ## 📁 Repository Purpose
 
 This repo serves as my personal progress tracker and sandbox for learning React. It includes:
@@ -106,3 +132,24 @@ Each folder corresponds to a topic or lesson in the video. Below is an overview 
 </table>
 
 ---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repository and submit a pull request.
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- [@brocode](https://www.youtube.com/@BroCodez) for the excellent React course.
+- [Vite](https://vitejs.dev/) for the fast development environment.
+- [React](https://react.dev/) for the powerful UI library.
