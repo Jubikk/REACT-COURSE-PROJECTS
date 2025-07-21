@@ -1,5 +1,4 @@
-import React, {useState, useEffect, useRef} from 'react'
-import { use } from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 
 function StopWatch () {
 
@@ -9,16 +8,15 @@ function StopWatch () {
   const startTimeRef = useRef (0);
 
   useEffect(() => {
-    if(isRunning){
+    if (isRunning) {
       intervalIdRef.current = setInterval(() => {
-        Date.now() - startTimeRef.current
-      },10)
+        setElapsedTime(Date.now() - startTimeRef.current);
+      }, 10);
     }
-
     return () => {
       clearInterval(intervalIdRef.current);
-    }
-  },[isRunning]);
+    };
+  }, [isRunning]);
 
   function start(){
     setisRunning(true);
@@ -42,7 +40,7 @@ function StopWatch () {
     let seconds = Math.floor(elapsedTime /(1000) % 60);
     let milliseconds = Math.floor(elapsedTime % 1000 / 10);
 
-    return `${hours}: ${minutes} : ${seconds} : ${milliseconds}`;
+    return ` ${minutes} : ${seconds} : ${milliseconds}`;
 
 
   }
