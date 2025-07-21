@@ -1,3 +1,26 @@
+# Lesson 17: useContext Hook
+
+This lesson covers the `useContext` hook in React for sharing state and functions across components without prop drilling.
+
+## Key Concepts
+
+- Creating and providing a React context
+- Consuming context values in child components
+- Avoiding prop drilling for global/shared state
+
+## How to Run
+
+1. Install dependencies:
+   ```sh
+   npm install
+   ```
+2. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+Check the code to see how context is created, provided, and consumed in a React app.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

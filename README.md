@@ -84,8 +84,24 @@ Each folder corresponds to a topic or lesson in the video. Below is an overview 
     <td>To-Do List App project with add, delete, and move task features.</td>
   </tr>
   <tr>
+    <td><a href="./Lesson15/useEffect-hook/" title="useEffect Hook">🔁 Lesson 15</a></td>
+    <td>Using the useEffect hook for side effects and lifecycle management.</td>
+  </tr>
+  <tr>
     <td><a href="./Lesson16digital-clock-app/digital-clock-app/" title="Digital Clock App">⏰ Lesson 16</a></td>
     <td>Digital Clock App project with real-time updates and glassmorphism UI.</td>
+  </tr>
+  <tr>
+    <td><a href="./Lesson17/useContext-hook/" title="useContext Hook">🌐 Lesson 17</a></td>
+    <td>Using the useContext hook for global state management.</td>
+  </tr>
+  <tr>
+    <td><a href="./Lesson18/useRef-hook/" title="useRef Hook">🔗 Lesson 18</a></td>
+    <td>Using the useRef hook for referencing DOM elements and values.</td>
+  </tr>
+  <tr>
+    <td><a href="./ZFinalstopwatch-app/stopwatch-app/" title="Stopwatch App">⏱️ Final Project</a></td>
+    <td>Stopwatch App using React hooks and advanced state management.</td>
   </tr>
 </table>
 
